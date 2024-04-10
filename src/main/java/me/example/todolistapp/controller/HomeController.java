@@ -8,8 +8,9 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class HomeController {
+
     @Autowired
-    private TodoService todoService;
+    private  TodoService todoService;
 
     @GetMapping("/")
     public ModelAndView root(){
